@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@observablehq/notebook-kit": "^2.5.3"
+  },
+  "scripts": {
+    "preview": "notebooks preview --root nbks --template nbks/custom.tmpl",
+    "build": "notebooks build --root nbks --template nbks/custom.tmpl --out ../dist -- nbks/*.html"
+  }
+}
