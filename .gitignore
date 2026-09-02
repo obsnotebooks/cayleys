@@ -5,3 +5,9 @@ yarn-error.log*
 .DS_Store
 /dist/
 node_modules/
+*.suck
+cayleyfamilyhistory.wordpress.com/
+archive.org/
+web-static.archive.org/
+wiki.archiveteam.org/
+web.archive.org/
