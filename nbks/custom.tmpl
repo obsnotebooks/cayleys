@@ -31,8 +31,15 @@
         padding:0;
         border:0;
       }
+      main {
+        width: 100%; /* override the shrink-to-fit caused by flex + margin:auto */
+        padding-left: 2.5rem;
+      }
       /* keep the collapsed nav's negative margin from causing a horizontal scrollbar */
       html { overflow-x: hidden; }
+      a.fam {
+        color: #FF851B; 
+      }
       nav {
         font-family: var(--sans-serif);
         font-size: 90%;
@@ -45,10 +52,6 @@
       }
       nav.collapsed {
         margin-left: -220px; /* slides the nav's right edge off to the left */
-      }
-      main {
-        width: 100%; /* override the shrink-to-fit caused by flex + margin:auto */
-        padding-left: 2.5rem;
       }
       #toc-toggle {
         position: fixed;
